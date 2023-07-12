@@ -1,0 +1,265 @@
+body{
+    font-size:18px;
+    font-family:'Baj Jamjuree';
+    text-align:center;
+    width: 100%;
+}
+
+/*bouton*/
+.ios{
+    color:white;
+    background-color:hsl(171, 66%, 44%);
+    width:250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    border:none; 
+    cursor: pointer;
+}
+.mac{
+    color:white;
+    background-color:hsl(233, 100%, 69%);
+    width:250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer; 
+}
+
+/* 1er div */
+
+.first{
+    background-image: url(images/bg-header-desktop.png);
+
+}
+.first p{
+  color: hsl(214, 6%, 48%);
+} 
+/* 2e div */
+
+.second p{
+color:hsl(214, 6%, 48%);
+}
+
+/* 3e div */
+.third {
+    margin-left: 50rem;
+    width:450px;
+    /* border:solid black 1px; */
+    text-align: left;
+
+ }
+.third p{
+    color:hsl(214, 6%, 48%);
+}
+/* image ordinateur */
+.computer {
+   float:left;
+}
+
+/* 4e div */
+.fourth p{
+    color:hsl(214, 6%, 48%); 
+}
+
+/* 5" div */
+
+.fifth p{
+    color:hsl(214, 6%, 48%);
+}
+
+/* 6e div */
+
+.six{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.six p{
+    color:hsl(214, 6%, 48%);
+}
+#blacklist{
+    top:10px;
+    position:relative;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.seventh p{
+    color:hsl(214, 6%, 48%);
+}
+
+/* footer */
+ footer{
+    background-color:hsl(240, 9%, 96%);
+    position: relative;   
+}
+footer img{
+    width: 70px;
+    position:relative;
+    right: 40%;
+    top: 20px;
+}
+
+#faq{ 
+    position: relative;
+    right: 25%;
+    bottom: 75px;    
+}
+
+#contact{
+    position:relative;
+    right: 25%;
+    bottom: 65px;  
+}
+
+#install{
+    position: relative;
+    left: 7%;
+    bottom: 230px;
+    width:1190px;
+}
+
+#presskit{
+    position:relative;
+    bottom:140px;
+    right:10%;
+}
+
+#policy{
+    position:relative;
+    bottom:150px;
+    right:10%;
+   
+} 
+
+.social{
+   float: right;
+   position:relative;
+   bottom: 270px;
+   right: 20px;
+   display: flex;
+   justify-content: space-between; 
+   right: 10%;
+    
+}
+.social img{
+    width: 20px;
+}
+#facebook{
+    position:relative; 
+    right: 40px;
+}
+#twitter{
+    position:relative;
+    right:20px;
+}
+.attribution{
+    position:relative;
+    /* bottom: 150px; */
+}
+ /* RESPONSIVE */
+  @media (max-width:978px){
+   
+    .first{
+    background-image: url(images/bg-header-desktop.png); 
+    }
+   .os{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .ios{
+    position: relative;
+    top: 10px;
+   }
+   .mac{
+    position: relative;
+    top: 20px;
+   }
+   .computer img{
+   width: 300px;
+   margin: auto;
+   }
+   .third{
+    display: block;
+    margin: auto;
+    text-align:center;
+   }
+   .pc{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   }
+   .device img{
+    width:300px;
+   }
+   .six{
+    display: block;
+    margin: auto;
+    text-align:center;
+   }
+  .logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    gap:50px;
+   }
+   #logo img{
+    
+    position:relative; 
+    width: 100px;
+   right: 10px;
+
+   }
+   
+   .f1{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+   }
+   #faq{
+   position:relative;
+   left: 150px;
+   width: 100px;
+   top: 15px;
+   }
+   #contact{
+    position:relative;  
+    left: 150px;
+    width: 100px;
+    bottom: 2px;
+
+   }
+   #policy{
+    position:relative;
+    width:150px;
+    left: 130px;
+    bottom: 15px;
+   }
+   #presskit{
+    position:relative;
+    width: 100px;
+    bottom: 30px;
+    left: 150px;
+   }
+
+   #install{
+    position: relative;
+    left:150px;
+    bottom:50px;
+    width: 100px;
+   }
+  .social{ 
+    display: flex;
+    position:relative;
+    bottom:70px;
+    right:170px;
+  }
+ 
+   
+  }
